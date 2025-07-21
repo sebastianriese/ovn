@@ -4641,8 +4641,8 @@ pinctrl_destroy(void)
 
 /* Buffered "put_mac_binding" operation. */
 
-#define MAX_MAC_BINDING_DELAY_MSEC 50
-#define MAX_FDB_DELAY_MSEC         50
+#define MAX_MAC_BINDING_DELAY_MSEC 100
+#define MAX_FDB_DELAY_MSEC         100
 #define MAX_MAC_BINDINGS           1000
 
 /* Contains "struct mac_binding"s. */
